@@ -1,7 +1,7 @@
 class GfG{
    Map<Integer, Integer> indexMap = new HashMap<>();
 
-    Node buildTree(int in[], int post[], int n) 
+    Node buildTree(int in[], int post[], int n) {
         for (int i = 0; i < n; ++i)
             indexMap.put(in[i], i);
 
